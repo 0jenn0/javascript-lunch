@@ -1,6 +1,6 @@
 import { AddModal, CategoryFilter, Header, SortFilter, TabBar } from '../components';
 import ToastMessage from '../components/common/ToastMessage';
-import RestaurantList, { restaurantList } from '../domain/restaurantList';
+import { restaurantList } from '../domain/restaurantList';
 
 export default class LunchAppController {
   private $appContainer: HTMLElement;
